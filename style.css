@@ -1,28 +1,25 @@
-.{
-    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+body {
+    font-family: Arial, sans-serif;
+    text-align:  center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-#list{
-    color:green;
+nav {
+    background: #333;
+    padding: 10px;
 }
-.list1{
-    color:brown;
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
 }
-.ul1{
-    background-color: red;
-    color:white;
-    width:25%;
-    padding:20px;
-    margin:20px;
-    boarder:5px solid black;
-    boarder: radius 10px;
-    transaction:0.5 ease-in-out;
-}
-.ul1:hover{
-    background-color: green;
-    boarder:2px solid black;
-}
-.ul1 ol li{
-    font-size: 30px;
-    font-weight: 700;
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-evenly;
 }
